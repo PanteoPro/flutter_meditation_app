@@ -1,0 +1,43 @@
+name: meditation_controll
+description: A new Flutter project.
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  bloc: ^8.0.2
+  flutter_bloc: ^8.0.1
+  equatable: ^2.0.3
+  audioplayers: ^0.20.1
+  shared_preferences: ^2.0.12
+  hive: ^2.0.5
+  hive_flutter: ^1.1.0
+  syncfusion_flutter_charts: ^19.4.43
+  syncfusion_flutter_core: ^19.4.43+1
+  vibration: ^1.7.4-nullsafety.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.1.7
+  hive_generator: ^1.1.2
+  flutter_lints: ^1.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/audio/
+    - assets/images/icons/
+  
+  fonts:
+    - family: RobotoFlex
+      fonts:
+        - asset: assets/fonts/RobotoFlex.ttf
+          weight: 400
